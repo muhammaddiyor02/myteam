@@ -1,0 +1,31 @@
+.ready{
+    width: 1440px;
+    height: 170px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: url(../img/ready__bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 0;
+    background-color: #F67E7E;
+}
+.conatiner{
+    width: 1110px;
+    margin:  0 auto;
+}
+.ready__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.ready__title{
+    color: #012F34;
+    font-size: 40px;
+}
+.ready__btn{
+    color: #012F34;
+    padding: 12px 25px;
+    border: 2px solid #012F34;
+    border-radius: 12px;
+    background: none;
+}

@@ -1,0 +1,118 @@
+.meeting{
+    width: 1440px;
+    height: 1002px;
+    margin:  0 auto;
+    background: url(../img/meeting__bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left top 0;
+    background-color: 
+    #004047;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.meeting__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meeting__card{
+    width: 350px;
+    height: 253px;
+    margin: 20px 10px;
+    position: relative;
+    background-color: #012F34;
+}
+.meeting__img{
+  position: absolute;
+  top: 20px;
+  left: 38%;
+  background-color: #012F34;
+}
+.meeting__title{
+    color: #fff;
+    text-align: center;
+    margin-top: 140px;
+}
+.meeting__subtitle{
+    color: #fff;
+   margin-left: 115px;
+    
+}
+.meeting__span{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #F67E7E;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 143px;
+   bottom: -10%;
+}
+.mini__title{
+    color: #79C8C7;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+.mini__subtitle{
+    color: #fff;
+    text-align: center;
+}
+.meeting__mini--box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.mini__img{
+    margin: 10px;
+}
+.mini__span{
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: 
+    #79C8C7;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 143px;
+   bottom: -10%;
+}
+.meeting__bigtitle{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 48px;
+}
+@media(max-width:768px){
+    .meeting{
+        width: 768px;
+        height: 1202px;
+        margin:  0 auto;
+        background: url(../img/meeting__bg-1.png);
+        background-repeat: no-repeat;
+        background-position: left top 0;
+        background-color: 
+        #004047;
+    }
+.container{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .meeting__inner{
+        flex-wrap: wrap;
+    }
+    .meeting__card{
+        width: 281px;
+        height: 253px;
+        background-color: #012F34;
+    }
+}

@@ -1,0 +1,31 @@
+.client{
+    width: 1440px;
+    height: 300px;
+    margin: 0 auto;
+    background: url(../img/clients-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top 0;
+    background-color: 
+    #012F34;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+   
+}
+.client__inner{
+    padding:50px ;
+}
+.client__title{
+  color: #fff;
+  font-size: 48px;  
+  text-align: center;
+ 
+}
+.client__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
